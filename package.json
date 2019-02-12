@@ -1,0 +1,21 @@
+{
+  "name": "nuxt-sass-styleresources",
+  "version": "1.0.0",
+  "description": "Repro",
+  "author": "manniL",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "post-update": "yarn upgrade --latest"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.0.0",
+    "@nuxtjs/style-resources": "0.1.2",
+    "node-sass": "4.11.0",
+    "nuxt": "^2.4.0",
+    "sass-loader": "7.1.0"
+  }
+}
